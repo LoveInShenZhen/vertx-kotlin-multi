@@ -1,0 +1,8 @@
+# Api 文档
+#GET     /api/builtin/doc/apiIndex                   sz.api.controllers.ApiDoc.apiIndex
+#GET     /api/builtin/doc/apiTest                    sz.api.controllers.ApiDoc.apiTest
+
+GET     /                                           sz.scaffold.controller.builtIn.Default.hello
+POST    /                                           sz.scaffold.controller.builtIn.Default.hello
+
+# todo: 增加回调的route
