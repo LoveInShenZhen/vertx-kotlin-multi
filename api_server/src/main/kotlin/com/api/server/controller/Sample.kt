@@ -1,6 +1,6 @@
-package com.appserver.controller
+package com.api.server.controller
 
-import com.appserver.controller.reply.HelloReply
+import com.api.server.controller.reply.HelloReply
 import jodd.datetime.JDateTime
 import sz.scaffold.annotations.Comment
 import sz.scaffold.controller.ApiController

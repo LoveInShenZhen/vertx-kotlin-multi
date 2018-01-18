@@ -26,7 +26,7 @@ distTar {
     }
 }
 
-mainClassName = 'com.appServer.ApiServer'
+mainClassName = 'com.api.server.ApiServer'
 
 tasks.withType(CreateStartScripts) {
     it.unixStartScriptGenerator.template = resources.text.fromFile('unixStartScript.txt')

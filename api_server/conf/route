@@ -11,4 +11,4 @@ GET     /api/builtin/doc/apiIndex                                           sz.a
 GET     /api/builtin/doc/apiTest                                            sz.api.controllers.ApiDoc.apiTest
 
 # 测试接口
-GET     /api/v1/sample/hello                                                com.appserver.controller.Sample.hello
+GET     /api/v1/sample/hello                                                com.api.server.controller.Sample.hello

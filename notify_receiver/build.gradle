@@ -26,7 +26,7 @@ distTar {
     }
 }
 
-mainClassName = 'com.receiverServer.NotifyReceiver'
+mainClassName = 'com.receiver.server.NotifyReceiver'
 
 tasks.withType(CreateStartScripts) {
     it.unixStartScriptGenerator.template = resources.text.fromFile('unixStartScript.txt')

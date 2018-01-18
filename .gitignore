@@ -21,6 +21,7 @@ target/
 .project
 .settings/
 .vertx/
+.vscode/
 bin/
 classes/
 RUNNING_PID

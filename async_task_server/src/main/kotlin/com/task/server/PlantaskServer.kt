@@ -1,6 +1,6 @@
 @file:JvmName("PlantaskServer")
 
-package com.taskServer
+package com.task.server
 
 import plantask.redis.RedisTaskLoader
 import sz.AsynTask.AsyncTasksVerticle

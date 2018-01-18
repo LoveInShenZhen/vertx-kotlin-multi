@@ -1,6 +1,6 @@
-@file:JvmName("ApiServer")
+@file:JvmName("NotifyReceiver")
 
-package com.appServer
+package com.receiver.server
 
 import sz.SzEbeanConfig
 import sz.scaffold.Application
@@ -8,7 +8,7 @@ import sz.scaffold.Application
 //
 // Created by kk on 17/8/29.
 //
-object ApiServer {
+object NotifyReceiver {
 
     @JvmStatic
     fun main(args: Array<String>) {

@@ -3,5 +3,3 @@ GET     /api/builtin/doc/apiIndex                   sz.api.controllers.ApiDoc.ap
 GET     /api/builtin/doc/apiTest                    sz.api.controllers.ApiDoc.apiTest
 
 # 测试用api接口
-
-POST    /notify/sample/onNotifyCallback             com.taskServer.controllers.SampleCallback
