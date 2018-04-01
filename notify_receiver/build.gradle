@@ -15,14 +15,14 @@ dependencies {
 distZip {
     into(project.name) {
         from '.'
-        include 'conf/*'
+        include 'conf/**'
     }
 }
 
 distTar {
     into(project.name) {
         from '.'
-        include 'conf/*'
+        include 'conf/**'
     }
 }
 
