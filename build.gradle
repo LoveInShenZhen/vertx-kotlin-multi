@@ -6,6 +6,9 @@ allprojects {
     apply plugin: 'org.jetbrains.kotlin.jvm'
 
     repositories {
+        flatDir {
+            dirs "$rootDir/libs"
+        }
         mavenLocal()
         maven {
             name "nexus-163"
