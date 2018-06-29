@@ -1,5 +1,5 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.2.31"
+    id "org.jetbrains.kotlin.jvm" version "1.2.41"
 }
 
 allprojects {
@@ -8,15 +8,10 @@ allprojects {
     repositories {
         mavenLocal()
         maven {
-            name "aliyun-maven"
-            url "http://maven.aliyun.com/nexus/content/groups/public/"
+            name "nexus-163"
+            url "http://mirrors.163.com/maven/repository/maven-public/"
         }
         jcenter()
-        ivy {
-            name "typesafe-ivy-release"
-            url "https://repo.typesafe.com/typesafe/ivy-releases"
-            layout "ivy"
-        }
 //        maven { url 'https://jitpack.io' }
     }
 
@@ -27,8 +22,8 @@ allprojects {
     }
 
     dependencies {
-        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.31"
-        compile "org.jetbrains.kotlin:kotlin-reflect:1.2.31"
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.41"
+        compile "org.jetbrains.kotlin:kotlin-reflect:1.2.41"
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-scaffold:-SNAPSHOT'
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-ebean:-SNAPSHOT'
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-api-doc:-SNAPSHOT'

@@ -1,7 +1,30 @@
-plugins {
-    id "com.github.kt3k.ebean.enhance" version "3.0.0"
+buildscript {
+
+    repositories {
+        maven {
+            name "nexus-163"
+            url "http://mirrors.163.com/maven/repository/maven-public/"
+        }
+    }
+    dependencies {
+        classpath "io.ebean:ebean-gradle-plugin:11.10.1"
+    }
 }
 
-ebeanEnhance {
-    packages = 'models.**'
+apply plugin: 'io.ebean'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    kapt "io.ebean:kotlin-querybean-generator:11.4.1"
+}
+
+ebean {
+    debugLevel = 2
+    queryBeans = true
+    kotlin = true
+    generatorVersion = "11.4.1"
+}
+
+sourceSets {
+    main.java.srcDirs += [file("$buildDir/generated/source/kaptKotlin/main")]
 }
