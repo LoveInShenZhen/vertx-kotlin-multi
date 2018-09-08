@@ -27,6 +27,8 @@ distTar {
 }
 
 mainClassName = 'com.api.server.ApiServer'
+// 可以在此添加jvm内存参数, eg: '-Xms512m', '-Xmx4096m'
+applicationDefaultJvmArgs = ['-Duser.timezone=GMT+8', '-Dfile.encoding=UTF-8', '-Dsun.jnu.encoding=UTF-8']
 
 tasks.withType(CreateStartScripts) {
     it.unixStartScriptGenerator.template = resources.text.fromFile('unixStartScript.txt')
