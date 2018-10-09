@@ -11,8 +11,8 @@ allprojects {
         }
         mavenLocal()
         maven {
-            name "nexus-163"
-            url "http://mirrors.163.com/maven/repository/maven-public/"
+            name "nexus-huaweicloud"
+            url "https://mirrors.huaweicloud.com/repository/maven/"
         }
         jcenter()
 //        maven { url 'https://jitpack.io' }
