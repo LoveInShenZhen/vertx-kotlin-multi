@@ -1,5 +1,5 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.3.20"
+    id "org.jetbrains.kotlin.jvm" version "1.3.21"
 }
 
 allprojects {
@@ -22,8 +22,8 @@ allprojects {
     }
 
     dependencies {
-        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.20"
-        compile "org.jetbrains.kotlin:kotlin-reflect:1.3.20"
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21"
+        compile "org.jetbrains.kotlin:kotlin-reflect:1.3.21"
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-scaffold:-SNAPSHOT'
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-ebean:-SNAPSHOT'
 //        compile 'com.github.kklongming.sz-vertx-kotlin:sz-api-doc:-SNAPSHOT'
